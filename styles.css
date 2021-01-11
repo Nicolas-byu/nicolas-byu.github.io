@@ -50,14 +50,20 @@ hr {
   width: 155%;
 }
 
-a {
+li a {
   color: #096fae;
 }
 
-a:hover {
+li a:hover {
   color: #2aa6f4;
 }
 
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: #d6d6d6;
+}
 #updated {
   color: #e7e247;
 }
