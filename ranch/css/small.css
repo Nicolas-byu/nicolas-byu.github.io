@@ -14,16 +14,18 @@ body {
 /* header */
 
 header {
-  background-color: #17a8e4;
+  background-color: #136f63;
   padding: 1rem 2%;
 }
 
 header h1 {
   margin: 0;
+  color: #f5f5f5;
 }
 
 header h2 {
   margin: 0;
+  color: #f5f5f5;
 }
 
 /* navigation */
@@ -61,7 +63,7 @@ main {
   display: block;
 }
 main h1 {
-  color: #17a8e4;
+  color: #136f63;
 }
 main figure img {
   width: 100%;
@@ -85,5 +87,6 @@ main figcaption {
 footer {
   text-align: center;
   padding: 1rem 2%;
-  background-color: #19a8e4;
+  background-color: #136f63;
+  color: white;
 }
