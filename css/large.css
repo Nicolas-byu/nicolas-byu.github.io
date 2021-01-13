@@ -1,4 +1,4 @@
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 780px) {
   .picture-of-me {
     grid-column: 8/9;
     margin-top: -80px;
