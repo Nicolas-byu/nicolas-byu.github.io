@@ -1,0 +1,75 @@
+/* body */
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* header and footer */
+header,
+footer {
+  background-color: #136f63;
+  color: white;
+  padding: 0.7em;
+  text-align: center;
+}
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: #d6d6d6;
+}
+#updated {
+  color: #fffac2;
+  margin-top: 5px;
+}
+
+/* main */
+main {
+  margin: 5% auto;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 938px;
+  box-shadow: 0 0 20px 0px;
+}
+
+.content {
+  display: grid;
+  padding: 0 30px;
+  margin-bottom: 8px;
+}
+
+.picture-of-me {
+  box-shadow: 0 0 20px 2px;
+  margin-top: 10px;
+  width: 100%;
+  grid-column: 7/8;
+}
+
+li {
+  margin-left: -25px;
+  font-size: 1.2em;
+  line-height: 1.7em;
+  list-style: none;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-right: 15px;
+}
+
+hr {
+  width: 130%;
+}
+
+li a {
+  color: #096fae;
+}
+
+li a:hover {
+  color: #2aa6f4;
+}

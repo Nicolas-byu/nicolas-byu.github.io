@@ -1,0 +1,7 @@
+@media only screen and (min-width: 850px) {
+  .picture-of-me {
+    grid-column: 8/9;
+    margin-top: -80px;
+    margin-left: -30px;
+  }
+}
