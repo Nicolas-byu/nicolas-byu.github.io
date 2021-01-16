@@ -1,3 +1,4 @@
+/* Whole document */
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -6,14 +7,18 @@
   text-align: center;
 }
 
+/* MAIN */
+
 .container {
   display: grid;
+  grid-gap: 40px;
+  margin: 20px 40px 0 40px;
 }
 
 h1 {
   font-size: 2.5em;
-  margin-bottom: 10px;
 }
+
 h2 {
   font-size: 1.6em;
   margin: 30px 0 20px 0;
@@ -28,17 +33,20 @@ section {
 }
 
 a {
-  margin: 10px 80px 3px 0;
+  font-size: 0.9em;
+  margin: 10px 0 3px 0;
   text-align: right;
+  text-decoration: none;
+  color: #22223b;
 }
-
+a:hover {
+  color: #555977;
+}
 .img {
-  width: 75%;
+  width: 100%;
   align-self: center;
   box-shadow: 0 0 8px 1px;
 }
-
 .description {
   text-align: left;
-  padding: 0 85px;
 }
