@@ -11,16 +11,19 @@
 
 .container {
   display: grid;
-  grid-gap: 40px;
-  margin: 20px 40px 0 40px;
+  grid-gap: 100px;
+  margin: 20px 40px 30px 40px;
 }
 
 h1 {
   font-size: 2.5em;
+  margin-bottom: -10px;
 }
-
+hr {
+  margin-bottom: 30px;
+}
 h2 {
-  font-size: 1.6em;
+  font-size: 1.5em;
   margin: 30px 0 20px 0;
 }
 h3 {
@@ -49,4 +52,13 @@ a:hover {
 }
 .description {
   text-align: left;
+  padding: 0 10px;
+}
+
+.pink {
+  color: #fe89b4;
+}
+
+.lime-green {
+  color: #16ffbd;
 }
