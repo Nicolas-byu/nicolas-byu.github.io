@@ -7,6 +7,20 @@
   text-align: center;
 }
 
+/* HEADER */
+header {
+  background-color: #fcca2b;
+}
+h1 {
+  margin-top: 0;
+  padding-top: 20px;
+  font-size: 2.5em;
+  margin-bottom: -10px;
+}
+hr {
+  margin-bottom: 50px;
+}
+
 /* MAIN */
 
 .container {
@@ -15,13 +29,6 @@
   margin: 20px 40px 0 40px;
 }
 
-h1 {
-  font-size: 2.5em;
-  margin-bottom: -10px;
-}
-hr {
-  margin-bottom: 50px;
-}
 h2 {
   font-size: 1.5em;
   margin: 30px 0 20px 0;
@@ -55,18 +62,12 @@ a:hover {
   padding: 0 25px;
 }
 
-.pink {
-  color: #fe89b4;
-}
-
-.lime-green {
-  color: #16ffbd;
-}
 /* FOOTER */
 footer {
   text-align: center;
   line-height: normal;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
+  background-color: #16ffbd;
 }
 
 #footer-hr {
