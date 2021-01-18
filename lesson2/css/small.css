@@ -66,7 +66,7 @@ main a:hover {
 footer {
   text-align: center;
   line-height: normal;
-  padding-bottom: 50px;
+  padding: 0 5px 25px 5px;
   background-color: #16ffbd;
   color: black;
 }
