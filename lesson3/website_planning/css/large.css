@@ -1,0 +1,40 @@
+@media only screen and (min-width: 767px) {
+  nav #links {
+    display: inline !important;
+  }
+  nav a.icon {
+    display: none;
+  }
+  nav {
+    width: 100%;
+    background-color: #005c7a;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15%;
+  }
+
+  #links div {
+    color: white;
+    display: inline-flex;
+  }
+
+  #links a:hover {
+    background-color: #007aa3;
+    padding-bottom: 14px;
+  }
+  .disappear,
+  .active {
+    display: none;
+  }
+  .logo,
+  .appear {
+    display: block;
+  }
+  main {
+    margin: 0 15%;
+  }
+
+  .logo:hover {
+    transform: scale(1.2);
+  }
+}

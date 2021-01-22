@@ -1,0 +1,10 @@
+@media only screen and (min-width: 617px) {
+  main {
+    padding: 0 40px !important;
+  }
+  main h3,
+  main p,
+  main .domain {
+    text-align: left;
+  }
+}

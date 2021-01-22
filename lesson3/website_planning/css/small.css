@@ -1,0 +1,101 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/*----------- BODY --------------*/
+
+/*----------- HEADER --------------*/
+
+/*----------- NAVIGATION --------------*/
+nav {
+  overflow: hidden;
+  background-color: #005c7a;
+  position: relative;
+}
+
+nav a {
+  color: white;
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 1rem;
+  display: block;
+}
+nav #links {
+  display: none;
+}
+nav a.icon {
+  background-color: #005c7a;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#links a:hover,
+nav a.icon:hover {
+  background-color: #007aa3;
+}
+
+.fa-bars {
+  transform: scale(1.5);
+}
+
+/*----------- MAIN --------------*/
+main {
+  position: relative;
+  min-height: 100vh;
+  margin: 0 30px;
+}
+
+h3 {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+p {
+  margin: 20px 0;
+}
+
+.domain {
+  text-align: center;
+}
+
+/*----------- FOOTER --------------*/
+footer {
+  width: 100%;
+  padding: 0.5rem 20px;
+  line-height: 1.3rem;
+  text-align: center;
+  font-size: 0.8rem;
+  background-color: #005c7a;
+  color: white;
+  position: absolute;
+}
+
+footer a {
+  text-decoration: none;
+  color: #00ffff;
+}
+
+.logo {
+  display: none;
+}
+
+.appear {
+  display: none;
+  background-color: #007aa3;
+}
+.active {
+  display: none;
+}
