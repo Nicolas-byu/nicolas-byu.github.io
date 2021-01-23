@@ -103,7 +103,7 @@ footer {
   padding: 0.5rem 20px;
   line-height: 1.3rem;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   background-color: #00a9a5;
   color: white;
   position: absolute;
@@ -115,7 +115,7 @@ footer a {
 }
 
 footer a:hover {
-  font-size: 0.85rem;
+  font-size: 0.95rem;
 }
 
 /*--------------COLOR SCHEME-------------- */
