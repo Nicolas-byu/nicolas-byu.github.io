@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="This website provides crucial information about the weather. It is very important to know what to do under certain types of weather"
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
     />
     <link
       rel="stylesheet"
@@ -15,13 +16,13 @@
     <link href="css/small.css" rel="stylesheet" />
     <link href="css/medium.css" rel="stylesheet" />
     <link href="css/large.css" rel="stylesheet" />
-    <title>getWeather</title>
+    <title>Color Scheme</title>
   </head>
   <body>
     <header>
       <nav>
+        <div><a href="index.html" class="logo"></a></div>
         <div>
-          <div><a href="index.html" class="logo">logo</a></div>
           <a href="color-scheme.html" class="disappear">Color Scheme</a>
         </div>
         <div id="links">
@@ -38,7 +39,26 @@
       </nav>
     </header>
     <main>
-      <h3>Color Scheme</h3>
+      <h3 class="center">Color Scheme</h3>
+      <p>
+        I tryed to use very similar colors and also have a little contrast
+        between them. I'm using the colors on this website to demonstrate how
+        they look.
+      </p>
+      <div class="colors">
+        <div class="color1">
+          <p>navigation<br />HEX: 005C7A</p>
+        </div>
+        <div class="color2">
+          <p>nav links on hover<br />HEX: 007AA3</p>
+        </div>
+        <div class="color3">
+          <p>footer<br />HEX: 00A9A5</p>
+        </div>
+        <div class="color4">
+          <p>logo on hover<br />HEX: 00FFFF</p>
+        </div>
+      </div>
     </main>
     <footer>
       &copy; <span id="current-year"></span> | Nicolas P. Orellana | Chile |

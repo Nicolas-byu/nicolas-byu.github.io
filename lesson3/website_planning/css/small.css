@@ -12,17 +12,12 @@ html {
   font-family: "Poppins", sans-serif;
 }
 
-/*----------- BODY --------------*/
-
-/*----------- HEADER --------------*/
-
 /*----------- NAVIGATION --------------*/
 nav {
   overflow: hidden;
   background-color: #005c7a;
   position: relative;
 }
-
 nav a {
   color: white;
   padding: 1rem;
@@ -40,37 +35,68 @@ nav a.icon {
   right: 0;
   top: 0;
 }
-
 #links a:hover,
 nav a.icon:hover {
   background-color: #007aa3;
 }
-
 .fa-bars {
   transform: scale(1.5);
 }
-
+.logo {
+  display: none;
+}
+.appear {
+  display: none;
+  background-color: #00a9a5;
+}
+.active {
+  display: none;
+}
 /*----------- MAIN --------------*/
 main {
   position: relative;
   min-height: 100vh;
   margin: 0 30px;
 }
-
 h3 {
   margin-top: 30px;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   text-align: center;
 }
-
-p {
-  margin: 20px 0;
+h4 {
+  font-size: 1.1rem;
+  margin: 50px 0 20px 0;
 }
-
+p {
+  margin: 20px 0 30px 0;
+}
 .domain {
   text-align: center;
 }
-
+.logoimg {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.logoimg > img {
+  background-color: #005c7a;
+  width: 160px;
+  padding: 15px;
+  border-radius: 5px;
+}
+.logoimg > img:hover {
+  transform: scale(1.1);
+}
+.list {
+  margin: 20px 50px 30px 50px;
+  line-height: 1.6rem;
+}
+li {
+  margin-bottom: 5px;
+}
 /*----------- FOOTER --------------*/
 footer {
   width: 100%;
@@ -78,24 +104,65 @@ footer {
   line-height: 1.3rem;
   text-align: center;
   font-size: 0.8rem;
-  background-color: #005c7a;
+  background-color: #00a9a5;
   color: white;
   position: absolute;
 }
 
 footer a {
   text-decoration: none;
-  color: #00ffff;
+  color: black;
 }
 
-.logo {
-  display: none;
+footer a:hover {
+  font-size: 0.85rem;
 }
 
-.appear {
-  display: none;
+/*--------------COLOR SCHEME-------------- */
+.center {
+  text-align: center;
+}
+.colors {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.colors > * {
+  color: white;
+  margin: 10px 0;
+  width: 150px;
+  height: 150px;
+  padding: 5px;
+}
+
+.colors p {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.color1 {
+  background-color: #005c7a;
+}
+
+.color2 {
   background-color: #007aa3;
 }
-.active {
-  display: none;
+
+.color3 {
+  background-color: #00a9a5;
+}
+
+.color4 {
+  background-color: cyan;
+  color: black;
+}
+
+/*-------------- Target Audience -------------- */
+.personas {
+  text-align: center;
+}
+.personas img {
+  width: 200px;
 }

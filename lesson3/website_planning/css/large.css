@@ -1,26 +1,15 @@
-@media only screen and (min-width: 767px) {
-  nav #links {
-    display: inline !important;
-  }
-  nav a.icon {
-    display: none;
-  }
+@media only screen and (min-width: 780px) {
+  /*----------- NAVIGATION --------------*/
   nav {
     width: 100%;
     background-color: #005c7a;
     display: flex;
-    justify-content: space-between;
-    padding: 0 15%;
+    justify-content: space-around;
+    box-shadow: 0 0 6px;
   }
-
-  #links div {
-    color: white;
-    display: inline-flex;
-  }
-
-  #links a:hover {
-    background-color: #007aa3;
-    padding-bottom: 14px;
+  nav a {
+    width: 165px;
+    text-align: center;
   }
   .disappear,
   .active {
@@ -30,11 +19,58 @@
   .appear {
     display: block;
   }
+  .logo {
+    background-image: url(../images/logositeplan.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 10px;
+    width: 120px;
+    height: 100%;
+  }
+  .logo:hover {
+    background-image: url(../images/logositeplanhover.svg);
+    transform: scale(1.1);
+  }
+  nav #links {
+    display: inline !important;
+  }
+  #links div {
+    color: white;
+    display: inline-flex;
+  }
+  #links a:hover {
+    background-color: #007aa3;
+  }
+  nav a.icon {
+    display: none;
+  }
+  /*----------- MAIN --------------*/
   main {
-    margin: 0 15%;
+    margin: 60px 17%;
+  }
+  h3 {
+    margin-top: 50px;
   }
 
-  .logo:hover {
-    transform: scale(1.2);
+  /*--------------- COLOR SCHEME ---------------*/
+
+  .colors > * {
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    margin-right: 10px;
+    line-height: 1.8rem;
+  }
+  .colors > *:hover {
+    transform: scale(1.05);
+  }
+  .center + p {
+    text-align: center;
+  }
+
+  /*--------------- Target Audience ---------------*/
+  .personas img {
+    width: 350px;
   }
 }

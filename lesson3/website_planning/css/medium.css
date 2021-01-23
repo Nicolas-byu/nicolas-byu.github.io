@@ -1,10 +1,34 @@
 @media only screen and (min-width: 617px) {
+  .logoimg {
+    margin: 0;
+  }
   main {
     padding: 0 40px !important;
   }
   main h3,
   main p,
   main .domain {
+    text-align: left;
+  }
+
+  /*--------------- COLOR SCHEME ---------------*/
+
+  .colors {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 30px;
+  }
+
+  .colors > * {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+
+  /*-------------- Target Audience -------------- */
+  .personas {
     text-align: left;
   }
 }
