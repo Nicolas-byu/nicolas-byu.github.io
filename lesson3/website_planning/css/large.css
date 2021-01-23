@@ -20,7 +20,7 @@
     display: block;
   }
   .logo {
-    background-image: url(../images/logositeplan.svg);
+    background-image: url(../images/logositeplan.png);
     position: absolute;
     background-repeat: no-repeat;
     padding: 0;
@@ -29,7 +29,7 @@
     height: 100%;
   }
   .logo:hover {
-    background-image: url(../images/logositeplanhover.svg);
+    background-image: url(../images/logositeplanhover.png);
     transform: scale(1.1);
   }
   nav #links {
