@@ -11,8 +11,7 @@
     width: 165px;
     text-align: center;
   }
-  .disappear,
-  .active {
+  .disappear-lg {
     display: none;
   }
   .logo,
@@ -42,6 +41,9 @@
   }
   #links a:hover {
     background-color: #007aa3;
+  }
+  .active {
+    background-color: #00a9a5;
   }
   nav a.icon {
     display: none;
