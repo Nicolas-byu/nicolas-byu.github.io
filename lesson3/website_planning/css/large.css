@@ -63,9 +63,6 @@
     margin-right: 10px;
     line-height: 1.8rem;
   }
-  .colors > *:hover {
-    transform: scale(1.05);
-  }
   .center + p {
     text-align: center;
   }
