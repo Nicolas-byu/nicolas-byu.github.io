@@ -41,9 +41,11 @@
   }
   #links a:hover {
     background-color: #007aa3;
+    color: white;
   }
   .active {
-    background-color: #00a9a5;
+    background-color: cyan;
+    color: black;
   }
   nav a.icon {
     display: none;
