@@ -1,0 +1,123 @@
+@media only screen and (min-width: 785px) {
+  .hide-m {
+    display: none;
+  }
+
+  .show-m {
+    display: block;
+  }
+  /*----------- HEADER ------------*/
+  header {
+    background-color: yellowgreen;
+    padding-top: 1px;
+  }
+  .logo {
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  .title-motto {
+    margin: 22px;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+  }
+  /*-------- NAVIGATION -----------*/
+  h1 {
+    margin: 10px 0;
+  }
+  .navigation {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+
+  .navigation a {
+    width: 131px;
+    text-align: center;
+  }
+  /*----------- MAIN --------------*/
+  main {
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+  main p,
+  main h2,
+  main h3 {
+    text-align: left;
+  }
+
+  .container {
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .text-block {
+    position: absolute;
+    bottom: 7px;
+    width: 280px;
+    height: 280px;
+    transform: scale(0.9);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 15px;
+  }
+  .text-block h3 {
+    margin: 0;
+  }
+  main .sec2 h2 {
+    text-align: left;
+  }
+
+  .forecast-days {
+    margin-top: 15px;
+    display: flex;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+  }
+
+  .forecast-days > div {
+    margin: 0 40px;
+    line-height: 0;
+  }
+
+  .article-sec {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    padding: 20px 50px;
+    margin-top: 15px;
+    display: block !important;
+  }
+
+  .forecast-img {
+    width: 400px;
+    margin-top: -10px !important;
+    margin: 0 0 15px 15px;
+    float: right;
+  }
+  /*----------- FOOTER --------------*/
+  .contact {
+    flex-direction: row !important;
+    justify-content: space-evenly;
+  }
+  .info {
+    order: 2;
+    line-height: 2rem;
+  }
+  .info > div {
+    margin-top: 10px;
+  }
+  .map {
+    order: 0;
+    width: 400px;
+  }
+  .social img {
+    width: 50px;
+    margin-left: 10px;
+  }
+  .social img:hover {
+    transform: scale(1.1);
+  }
+}
