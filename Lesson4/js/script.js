@@ -1,7 +1,15 @@
-CurrentYear = new Date().getFullYear();
-document.getElementById("current-year").innerHTML = CurrentYear;
-var lastModified = document.lastModified;
-document.getElementById("updated").innerHTML = "Last update: " + lastModified;
+let currentDate = new Date().getDate();
+let currentMonth = Number(new Date().getMonth()) + 1;
+let currentYear = new Date().getFullYear();
+if (currentDate < 10) {
+  currentDate = "0" + currentDate;
+}
+if (currentMonth < 10) {
+  currentMonth = "0" + currentMonth;
+}
+
+document.getElementById("current-date").innerHTML =
+  currentDate + "/" + currentMonth + "/" + currentYear;
 
 const hamButton = document.querySelector(".menu");
 const menuUl = document.querySelector(".navigation");

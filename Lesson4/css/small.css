@@ -64,7 +64,8 @@ nav .logo {
 .responsive {
   display: block;
 }
-nav a {
+nav a,
+.fa {
   display: block;
   padding: 0.75rem;
   text-align: left;
