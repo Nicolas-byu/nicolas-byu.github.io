@@ -35,3 +35,12 @@ hamButton.addEventListener(
   },
   false
 );
+
+//Shows a message when is Saturday
+const element = document.getElementById("message");
+
+if (date.getDay() === 6) {
+  element.classList.add("showme");
+} else {
+  element.classList.add("hideme");
+}

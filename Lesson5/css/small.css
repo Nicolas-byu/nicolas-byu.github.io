@@ -73,13 +73,32 @@ nav a,
   color: white;
   font-weight: 700;
 }
-.navigation a:hover,
-.active {
+.navigation a:hover {
   color: black;
   background-color: white;
 }
 
+.active {
+  color: white;
+  background-color: black;
+}
+
 /*----------- MAIN --------------*/
+
+div#message {
+  background-color: yellow;
+}
+
+.showme {
+  display: block;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.hideme {
+  display: none;
+}
+
 main {
   margin-top: 10px !important;
   line-height: 1.5rem;
