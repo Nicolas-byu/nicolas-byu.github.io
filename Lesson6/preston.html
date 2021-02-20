@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="A website that tells the weather in Preston Idaho."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta name="description" content="" />
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/small.css" rel="stylesheet" />
+    <link href="css/medium.css" rel="stylesheet" />
+    <link href="css/large.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <title>WhiteCloud</title>
+  </head>
+  <body>
+    <header>
+      <div class="title-motto show-m hide-s">
+        <img class="logo" src="images/logo.jpg" alt="logo" />
+        <div>
+          <h1>WhiteCloud</h1>
+          <h4>Get the weather in no time.</h4>
+        </div>
+      </div>
+      <nav>
+        <div class="menu">
+          <div class="heading hide-m">
+            <img class="logo" src="images/logo.jpg" alt="logo" />
+            <div>
+              <h3>WhiteCloud</h3>
+              <h5>Get the weather in no time.</h5>
+            </div>
+          </div>
+          <a class="fa fa-bars hide-m" href="javascript:void(0);"></a>
+        </div>
+        <ul class="navigation">
+          <li><a href="#">Home</a></li>
+          <li><a class="active" href="#">Preston</a></li>
+          <li><a href="#">Soda Springs</a></li>
+          <li><a href="#">Fish Haven</a></li>
+          <li><a href="#">Storm Center</a></li>
+          <li><a href="#">Gallery</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="message">
+        Saturday means Preston Pancakes in the Park! 9:00 a.m. Saturday at the
+        city park pavilion.
+      </div>
+      <section class="sec1">
+        <h1>Preston Idaho</h1>
+        <div class="container">
+          <picture>
+            <source
+              srcset="images/rsz_wdd230_image_franklinlarge.jpg"
+              media="(min-width:800px)"
+            />
+            <source
+              srcset="images/rsz_1wdd230_image_franklinmedium.jpg"
+              media="(min-width:500px)"
+            />
+            <img
+              class="banner-img"
+              src="images/rsz_2wdd230_image_franklinsmall.jpg"
+              alt="hero image"
+            />
+          </picture>
+          <div class="text-block">
+            <h3>Weather Summary</h3>
+            <p><strong>Currently: </strong>Rainy</p>
+            <p><strong>High: </strong><span id="temp">30</span>&deg;</p>
+            <p><strong>Wind Chill: </strong><span id="chill"></span></p>
+            <p><strong>Humidity: </strong>95%</p>
+            <p><strong>Wind Speed: </strong><span id="speed">60</span> mph</p>
+          </div>
+        </picture>
+      </section>
+      <section class="sec2">
+        <h2>Five Day Forecast</h2>
+        <div class="forecast-days hide-s show-m">
+          <div>
+            <span id="day1"></span>
+            <img
+              class="forecast-day"
+              src="images/sun-631-445578.png"
+              alt="placeholder"
+            />
+            <span> 30°</span>
+          </div>
+          <div>
+            <span id="day2"></span>
+            <img
+              class="forecast-day"
+              src="images/sun-631-445578.png"
+              alt="placeholder"
+            />
+            <span> 31°</span>
+          </div>
+          <div>
+            <span id="day3"></span>
+            <img
+              class="forecast-day"
+              src="images/sun-631-445578.png"
+              alt="placeholder"
+            />
+            <span> 28°</span>
+          </div>
+          <div>
+            <span id="day4"></span>
+
+            <img
+              class="forecast-day"
+              src="images/sun-631-445578.png"
+              alt="placeholder"
+            />
+            <span> 33°</span>
+          </div>
+          <div>
+            <span id="day5"></span>
+            <img
+              class="forecast-day"
+              src="images/sun-631-445578.png"
+              alt="placeholder"
+            />
+            <span> 27°</span>
+          </div>
+        </div>
+        <div class="article-sec">
+          <h3>Article Title</h3>
+          <div class="article-img">
+            <img
+              class="large-img forecast-img"
+              src="images/pexels-maria-isabella-bernotti-1049298.jpg"
+              alt="placeholder"
+            />
+          </div>
+          <div class="article-p">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
+              ex corrupti amet reiciendis, enim quam et assumenda minima laborum
+              fugiat. Explicabo quisquam eligendi at eaque aliquid saepe ea quis
+              officiis? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Minima harum, ipsum veritatis quos doloribus dignissimos.
+              Exercitationem excepturi vel esse? Nemo, atque nesciunt? Expedita
+              debitis distinctio incidunt nulla mollitia ipsa perspiciatis.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Veritatis doloribus doloremque laboriosam, ducimus autem illo
+              illum quasi omnis consectetur esse dignissimos eligendi ipsam
+              error in voluptas nemo ratione iste laborum?
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="contact">
+        <div class="info">
+          <h2>Contact Information</h2>
+          <div class="contact-info">
+            <div>
+              <h4>Address</h4>
+              <p>
+                The Weather Center<br />
+                123 Main Street.<br />
+                Franklin, MI 87654
+              </p>
+            </div>
+            <div>
+              <h4>Email</h4>
+              <p>xxxxxxxxx@gmail.com</p>
+            </div>
+            <div>
+              <h4>Phone</h4>
+              <p>+56 9 1435 3654</p>
+            </div>
+          </div>
+          <div class="social hide-s show-m">
+            <a href="https://www.facebook.com/" target="_blank"
+              ><img src="images/facebook.svg" alt="Facebook icon"
+            /></a>
+            <a href="https://www.instagram.com/" target="_blank"
+              ><img src="images/instagram.svg" alt="Instagran icon"
+            /></a>
+            <a href="https://twitter.com/" target="_blank"
+              ><img src="images/twitter.svg" alt="Twitter icon"
+            /></a>
+          </div>
+        </div>
+        <img
+          src="images/map.jpg"
+          alt="Preston Idaho Map"
+          class="preston-image"
+        />
+      </div>
+      <div class="footer-bar">
+        &copy; <span id="current-date"></span> | Nicolas P. Orellana | Chile |
+        <a href="https://www.byui.edu/online" target="_blank">
+          BYUI Online Learning</a
+        >
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/windchill.js"></script>
+
+  </body>
+</html>
