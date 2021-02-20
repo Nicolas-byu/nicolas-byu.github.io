@@ -145,6 +145,10 @@ main .article-img {
   order: 2;
 }
 
+.preston-image {
+  max-width: 550px;
+}
+
 /*---------- FOOTER -------------*/
 footer {
   margin-top: 10px;
