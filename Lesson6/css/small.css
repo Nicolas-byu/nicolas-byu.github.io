@@ -232,8 +232,3 @@ figcaption {
   border-left: green solid;
   width: 300px;
 }
-
-.gallery-main picture:hover {
-  transform: scale(1.02);
-  box-shadow: 0px 0px 10px 5px;
-}
