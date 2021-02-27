@@ -30,11 +30,11 @@
     display: flex;
     list-style-type: none;
     justify-content: space-evenly;
-    text-align: center;
+    /* text-align: center; */
   }
 
   .navigation a {
-    width: 131px;
+    width: 133px;
     text-align: center;
   }
   /*----------- MAIN --------------*/
@@ -138,5 +138,13 @@
   }
   .social img:hover {
     transform: scale(1.1);
+  }
+  .preston-image {
+    margin: 0 20px;
+    width: 470px !important;
+  }
+  /*-------------GALLERY-7----------------*/
+  .pictures {
+    grid-template-columns: 1fr 1fr;
   }
 }

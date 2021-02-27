@@ -4,8 +4,6 @@
 }
 
 img {
-  width: 300;
-  height: 400;
   transition: filter 0.5s;
 }
 
