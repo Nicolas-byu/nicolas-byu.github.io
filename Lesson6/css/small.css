@@ -216,7 +216,7 @@ footer > div {
   width: 300px;
   transition: filter 0.5s;
 }
-.gallery-main picture {
+.gallery-main figure {
   margin: 0 auto;
   width: 300px;
   display: flex;
