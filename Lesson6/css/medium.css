@@ -30,7 +30,6 @@
     display: flex;
     list-style-type: none;
     justify-content: space-evenly;
-    /* text-align: center; */
   }
 
   .navigation a {

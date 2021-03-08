@@ -107,6 +107,7 @@ main {
 .preston-main h2,
 .preston-main h1 {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .preston-main h3 {
@@ -196,7 +197,7 @@ footer > div {
 }
 
 /*-------------GALLERY-7----------------*/
-.gallery-main h1 {
+.gallery-main h2 {
   margin-top: 20px;
   margin-bottom: 40px;
   text-align: left;

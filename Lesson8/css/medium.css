@@ -1,0 +1,87 @@
+@media only screen and (min-width: 785px) {
+  .hide-m {
+    display: none;
+  }
+
+  .show-m {
+    display: block;
+  }
+  /*----------- HEADER ------------*/
+  header {
+    background-color: yellowgreen;
+    padding-top: 1px;
+  }
+  .logo {
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  .title-motto {
+    margin: 22px;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+  }
+  /*-------- NAVIGATION -----------*/
+  h1 {
+    margin: 10px 0;
+  }
+  .navigation {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+  }
+
+  .navigation a {
+    width: 133px;
+    text-align: center;
+  }
+  /*----------- MAIN --------------*/
+  main {
+    max-width: 1000px;
+    padding: 20px;
+  }
+  main h2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  /*----------- FOOTER --------------*/
+  .contact {
+    flex-direction: row !important;
+    justify-content: space-evenly;
+  }
+  .contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  .info {
+    order: 2;
+    line-height: 2rem;
+  }
+  .info > div {
+    margin-top: 10px;
+  }
+
+  .map {
+    order: 0;
+    margin-right: 15px;
+  }
+
+  iframe {
+    width: 550px !important;
+    height: 250px;
+  }
+  .social img {
+    width: 50px;
+    margin-left: 10px;
+  }
+  .social img:hover {
+    transform: scale(1.1);
+  }
+  .preston-image {
+    margin: 0 20px;
+    width: 470px !important;
+  }
+}

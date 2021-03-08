@@ -11,7 +11,6 @@ while (i < 5) {
 const element = document.getElementById("message");
 
 if (date.getDay() === 6) {
+  element.classList.remove("hideme");
   element.classList.add("showme");
-} else {
-  element.classList.add("hideme");
 }
