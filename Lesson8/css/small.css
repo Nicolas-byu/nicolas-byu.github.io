@@ -90,7 +90,6 @@ main {
 main fieldset {
   margin: 0 auto;
   margin-bottom: 20px;
-  width: 500px;
   display: flex;
   justify-content: center;
 }
@@ -100,11 +99,10 @@ main fieldset {
   flex-direction: column;
   justify-content: space-around;
 }
-.first-field {
-  flex-flow: row wrap;
-}
+
 .first-field label input {
   margin-bottom: 15px;
+  width: 80vw;
 }
 
 .second-field {
@@ -125,9 +123,8 @@ main fieldset {
 }
 
 .storm-type {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: column;
   line-height: 2rem;
   margin-bottom: 20px;
 }
@@ -149,11 +146,16 @@ main fieldset {
 
 .in-danger-div {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   padding: 0 20px;
   margin-bottom: 10px;
+  line-height: 1.5em;
 }
-
+textarea {
+  padding: 20px;
+  width: 80vw;
+}
 .submit {
   width: 100%;
   text-align: center;
