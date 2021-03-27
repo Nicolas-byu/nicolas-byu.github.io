@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta
       name="description"
-      content="A Weather Gallery with pictures of different weathers."
+      content="A website that tells the weather in Preston Idaho."
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
@@ -22,6 +22,7 @@
     <header>
       <div class="title-motto show-m hide-s">
         <img class="logo" src="images/logo.jpg" alt="logo" />
+        <div id="cards"></div>
         <div>
           <h1>WhiteCloud</h1>
           <h4>Get the weather in no time.</h4>
@@ -39,93 +40,21 @@
           <a class="fa fa-bars hide-m" href="javascript:void(0);"></a>
         </div>
         <ul class="navigation">
-          <li><a href="/Lesson9/index.html">Home</a></li>
-          <li><a href="preston.html">Preston</a></li>
+          <li><a class="active" href="/index.html">Home</a></li>
+          <li><a href="../Lesson6/preston.html">Preston</a></li>
           <li><a href="#">Soda Springs</a></li>
           <li><a href="#">Fish Haven</a></li>
           <li><a href="../Lesson8/stormcenter.html">Storm Center</a></li>
-          <li><a class="active" href="#">Gallery</a></li>
+          <li><a href="/Lesson6/gallery-7.html">Gallery</a></li>
         </ul>
       </nav>
     </header>
-    <main class="gallery-main">
-      <section class="sec1">
-        <h2>Weather Gallery</h2>
-        <div class="pictures">
-          <figure>
-            <img
-              src="images/placeholder-400x300.png"
-              data-src="images/weatherpics/cloudy-day.jpg"
-              alt="a picture of a claudy day"
-            />
-            <figcaption>A cloudy day</figcaption>
-          </figure>
-          <figure>
-            <img
-              src="images/placeholder-400x300.png"
-              data-src="images/weatherpics/desert.jpg"
-              alt="a picture of a desert"
-            />
-            <figcaption>A desert</figcaption>
-          </figure>
-          <figure>
-            <img
-              src="images/placeholder-400x300.png"
-              data-src="images/weatherpics/factories.jpg"
-              alt="a picture of factories"
-            />
-            <figcaption>Factories</figcaption>
-          </figure>
-          <figure>
-            <img
-              src="images/placeholder-400x300.png"
-              data-src="images/weatherpics/ice.jpg"
-              alt="a picture of ice melting"
-            />
-            <figcaption>Ice melting</figcaption>
-          </figure>
-          <figure>
-            <img
-              src="images/placeholder-400x300.png"
-              data-src="images/weatherpics/lightning.jpg"
-              alt="a picture of a lightning strike"
-            />
-            <figcaption>lightning strike</figcaption>
-          </figure>
-          <figure>
-            <img
-              src="images/placeholder-400x300.png"
-              data-src="images/weatherpics/ocea-storm.jpg"
-              alt="a picture of a storm in the ocean"
-            />
-            <figcaption>A storm in the ocean</figcaption>
-          </figure>
-          <figure>
-            <img
-              src="images/placeholder-400x300.png"
-              data-src="images/weatherpics/rain-day.jpg"
-              alt="a picture of a rainy day"
-            />
-            <figcaption>Rainy day</figcaption>
-          </figure>
-          <figure>
-            <img
-              src="images/placeholder-400x300.png"
-              data-src="images/weatherpics/snowy-day.jpg"
-              alt="a picture of a snowy day"
-            />
-            <figcaption>Beautiful snow</figcaption>
-          </figure>
-          <figure>
-            <img
-              src="images/placeholder-400x300.png"
-              data-src="images/weatherpics/sunset-day.jpg"
-              alt="a picture of a sunset"
-            />
-            <figcaption>A sunny day</figcaption>
-          </figure>
-        </div>
-      </section>
+    <main>
+      <div class="hero-img">
+        <img src="images/index-hero.jpg" />
+      </div>
+
+      <div class="cards"></div>
     </main>
     <footer>
       <div class="contact">
@@ -174,6 +103,7 @@
         >
       </div>
     </footer>
+    <script src="js/fetchData.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
