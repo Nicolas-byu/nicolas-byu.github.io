@@ -4,17 +4,17 @@
     <meta charset="UTF-8" />
     <meta
       name="description"
-      content="A Weather Gallery with pictures of different weathers."
+      content="A website that tells the weather in Preston Idaho."
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link href="css/gallery-7/normalize.css" rel="stylesheet" />
-    <link href="css/gallery-7/small.css" rel="stylesheet" />
-    <link href="css/gallery-7/medium.css" rel="stylesheet" />
-    <link href="css/gallery-7/large.css" rel="stylesheet" />
+    <link href="css/fish-heaven/normalize.css" rel="stylesheet" />
+    <link href="css/fish-heaven/small.css" rel="stylesheet" />
+    <link href="css/fish-heaven/medium.css" rel="stylesheet" />
+    <link href="css/fish-heaven/large.css" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <title>WhiteCloud</title>
   </head>
@@ -42,88 +42,70 @@
           <li><a href="/Lesson11/home.html">Home</a></li>
           <li><a href="/Lesson11/preston.html">Preston</a></li>
           <li><a href="/Lesson11/soda-springs.html">Soda Springs</a></li>
-          <li><a href="/Lesson11/fish-heaven.html">Fish Haven</a></li>
+          <li>
+            <a class="active" href="/Lesson11/fish-heaven.html">Fish Haven</a>
+          </li>
           <li><a href="/Lesson11/stormcenter.html">Storm Center</a></li>
-          <li><a class="active" href="/Lesson11/gallery-7.html">Gallery</a></li>
+          <li><a href="/Lesson11/gallery-7.html">Gallery</a></li>
         </ul>
       </nav>
     </header>
-    <main class="gallery-main">
+    <main class="fish-heaven-main">
       <section class="sec1">
-        <h2>Weather Gallery</h2>
-        <div class="pictures">
-          <figure>
+        <h2>Fish Heaven</h2>
+        <div class="container">
+          <img
+            class="banner-img"
+            src="images/fish-heaven-hero.jpg"
+            alt="hero image"
+          />
+
+          <div class="text-block">
+            <h3>Weather Summary for <span id="townName"></span></h3>
+            <p>
+              <strong>Currently: </strong><span id="currentTemp"></span>&deg
+            </p>
+            <p><strong>High: </strong><span id="maxTemp"></span>&deg;</p>
+            <p><strong>Windchill: </strong><span id="windchill"></span>&deg</p>
+            <p><strong>Humidity: </strong><span id="humidity"></span>%</p>
+            <p><strong>Wind Speed: </strong><span id="windSpeed"></span> mph</p>
+          </div>
+        </div>
+        <div class="events">
+          <h2>Upcoming Events:</h2>
+          <p><span id="event1"></span></p>
+          <p><span id="event2"></span></p>
+          <p><span id="event3"></span></p>
+        </div>
+      </section>
+      <section class="sec2">
+        <h2>Five Day Forecast</h2>
+        <div id="forecast-days" class="hide-s show-m"></div>
+        <div class="article-sec">
+          <h3>About Fish Heaven</h3>
+          <div class="article-img">
             <img
-              src="images/placeholder-400x300.png"
-              data-src="images/weatherpics/cloudy-day.jpg"
-              alt="a picture of a claudy day"
+              class="large-img forecast-img"
+              src="images/fish-heaven.jpg"
+              alt="placeholder"
             />
-            <figcaption>A cloudy day</figcaption>
-          </figure>
-          <figure>
-            <img
-              src="images/placeholder-400x300.png"
-              data-src="images/weatherpics/desert.jpg"
-              alt="a picture of a desert"
-            />
-            <figcaption>A desert</figcaption>
-          </figure>
-          <figure>
-            <img
-              src="images/placeholder-400x300.png"
-              data-src="images/weatherpics/factories.jpg"
-              alt="a picture of factories"
-            />
-            <figcaption>Factories</figcaption>
-          </figure>
-          <figure>
-            <img
-              src="images/placeholder-400x300.png"
-              data-src="images/weatherpics/ice.jpg"
-              alt="a picture of ice melting"
-            />
-            <figcaption>Ice melting</figcaption>
-          </figure>
-          <figure>
-            <img
-              src="images/placeholder-400x300.png"
-              data-src="images/weatherpics/lightning.jpg"
-              alt="a picture of a lightning strike"
-            />
-            <figcaption>lightning strike</figcaption>
-          </figure>
-          <figure>
-            <img
-              src="images/placeholder-400x300.png"
-              data-src="images/weatherpics/ocea-storm.jpg"
-              alt="a picture of a storm in the ocean"
-            />
-            <figcaption>A storm in the ocean</figcaption>
-          </figure>
-          <figure>
-            <img
-              src="images/placeholder-400x300.png"
-              data-src="images/weatherpics/rain-day.jpg"
-              alt="a picture of a rainy day"
-            />
-            <figcaption>Rainy day</figcaption>
-          </figure>
-          <figure>
-            <img
-              src="images/placeholder-400x300.png"
-              data-src="images/weatherpics/snowy-day.jpg"
-              alt="a picture of a snowy day"
-            />
-            <figcaption>Beautiful snow</figcaption>
-          </figure>
-          <figure>
-            <img
-              src="images/placeholder-400x300.png"
-              data-src="images/weatherpics/sunset-day.jpg"
-              alt="a picture of a sunset"
-            />
-            <figcaption>A sunny day</figcaption>
-          </figure>
+          </div>
+          <div class="article-p">
+            <p>
+              Fish Haven, originally named Rush Creek, is an unincorporated
+              community along the shores of Bear Lake in Bear Lake County,
+              Idaho, United States. It is 4 km (2.5 miles) north of the Utah
+              border. The first settlement at Fish Haven was made in 1864. A
+              post office called Fish Haven was established in 1867, and
+              remained in operation until 1962. The community was so named
+              because nearby Bear Lake is a favorite fishing spot. About Bear
+              Lake. Bear Lake is a natural freshwater lake on the Idaho–Utah
+              border in the Western United States. About 109 square miles in
+              size, it is split about equally between the two states; its Utah
+              portion comprises the second-largest natural freshwater lake in
+              Utah, after Utah Lake.
+            </p>
+          </div>
         </div>
       </section>
     </main>
@@ -175,5 +157,6 @@
       </div>
     </footer>
     <script src="js/script.js"></script>
+    <script src="js/fishHeavenData.js"></script>
   </body>
 </html>

@@ -104,21 +104,21 @@ main {
   line-height: 1.5rem;
 }
 
-.preston-main h2,
-.preston-main h1 {
+.fish-heaven-main h2,
+.fish-heaven-main h1 {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.preston-main h3 {
+.fish-heaven-main h3 {
   margin-top: 20px;
 }
 
-.preston-main p {
+.fish-heaven-main p {
   margin-top: 10px;
 }
 
-.preston-main .banner-img {
+.fish-heaven-main .banner-img {
   margin-top: 15px;
 }
 
@@ -129,20 +129,20 @@ main .sec1 {
   background-color: whitesmoke;
 }
 
-.preston-main .sec2 {
+.fish-heaven-main .sec2 {
   background-color: green;
   color: white;
 }
-.preston-main .sec2 h2 {
+.fish-heaven-main .sec2 h2 {
   text-align: center;
 }
 
-.preston-main .article-sec {
+.fish-heaven-main .article-sec {
   display: flex;
   flex-direction: column;
 }
 
-.preston-main .article-img {
+.fish-heaven-main .article-img {
   order: 2;
 }
 
