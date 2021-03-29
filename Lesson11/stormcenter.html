@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Weather Storm Center. " />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="css/stormcenter-thanks/normalize.css" rel="stylesheet" />
+    <link href="css/stormcenter-thanks/small.css" rel="stylesheet" />
+    <link href="css/stormcenter-thanks/medium.css" rel="stylesheet" />
+    <link href="css/stormcenter-thanks/large.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <title>WhiteCloud</title>
+  </head>
+  <body>
+    <header>
+      <div class="title-motto show-m hide-s">
+        <img class="logo" src="images/logo.jpg" alt="logo" />
+        <div>
+          <h1>WhiteCloud</h1>
+          <h4>Get the weather in no time.</h4>
+        </div>
+      </div>
+      <nav>
+        <div class="menu">
+          <div class="heading hide-m">
+            <img class="logo" src="images/logo.jpg" alt="logo" />
+            <div>
+              <h3>WhiteCloud</h3>
+              <h5>Get the weather in no time.</h5>
+            </div>
+          </div>
+          <a class="fa fa-bars hide-m" href="javascript:void(0);"></a>
+        </div>
+        <ul class="navigation">
+          <li><a href="/Lesson11/home.html">Home</a></li>
+          <li><a href="/Lesson11/preston.html">Preston</a></li>
+          <li><a href="#">Soda Springs</a></li>
+          <li><a href="#">Fish Haven</a></li>
+          <li><a class="active" href="#">Storm Center</a></li>
+          <li><a href="/Lesson11/gallery-7.html">Gallery</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="stormcenter-main">
+      <h2>Storm Center Report</h2>
+      <form action="thanks.html" method="get">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <div class="first-field field">
+            <label class="label1"
+              ><span>Full Name*</span><br />
+              <input
+                class="input1"
+                type="text"
+                name="name"
+                pattern="[A-Za-z ]{5,}"
+                required
+            /></label>
+
+            <label
+              ><span>Email</span><br />
+              <input
+                type="email"
+                name="email"
+                placeholder="your_email@email.com"
+            /></label>
+            <label
+              ><span>Phone*</span><br />
+              <input type="tel" name="tel" required
+            /></label>
+            <label
+              ><span>Zipcode*</span><br />
+              <input type="number" name="zipcode" required
+            /></label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Report Details</legend>
+          <div class="second-field field">
+            <span id="date">Date</span>
+            <label><input class="full-width" type="date" name="date" /></label>
+            <span>Type <em>(Mark all that apply)</em></span>
+            <div class="storm-type">
+              <label
+                ><input type="checkbox" name="flash-flood" />Flash Flood</label
+              >
+              <label><input type="checkbox" name="hail" />Hail</label>
+              <label><input type="checkbox" name="hurricane" />Hurricane</label>
+
+              <label
+                ><input
+                  type="checkbox"
+                  name="thunderstorm"
+                />Thunderstorm</label
+              >
+              <label><input type="checkbox" name="tornado" />Tornado</label>
+            </div>
+            <div>
+              <span class="flex">
+                <span>Severity:</span>
+                <span id="slider-value">5</span>
+              </span>
+              <label for="slider">
+                <input
+                  type="range"
+                  name="slideRange"
+                  class="full-width"
+                  id="slider"
+                  value="5"
+                  min="1"
+                  max="10"
+                  step="1"
+                  list="tickmarks"
+                  oninput="sliderHandler(this.value)"
+                />
+                <datalist id="tickmarks">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </datalist>
+              </label>
+              <span class="region">Region</span>
+              <label for="region">
+                <select class="full-width" name="region" id="region">
+                  <option value="">select region</option>
+                  <option value="0">Preston</option>
+                  <option value="1">Soda Springs</option>
+                  <option value="2">Fish Haven</option>
+                </select></label
+              >
+            </div>
+            <span>In-danger level</span>
+            <div class="in-danger-div">
+              <label
+                ><input type="radio" name="danger-level" value="yes" />
+                Yes</label
+              >
+              <label
+                ><input type="radio" name="danger-level" value="maybe" />
+                Maybe</label
+              >
+              <label
+                ><input type="radio" name="dange-lLevel" value="no" /> No</label
+              >
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Additional Information or Comments</legend>
+          <div class="field">
+            <label>
+              <textarea
+                name="additional-info"
+                placeholder="Enter comments here..."
+              ></textarea>
+            </label>
+          </div>
+        </fieldset>
+        <div class="submit">
+          <button class="submit-btn" type="submit" value="Submit">
+            Submit Report
+          </button>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <div class="contact">
+        <div class="info">
+          <h2>Contact Information</h2>
+          <div class="contact-info">
+            <div>
+              <h4>Address</h4>
+              <p>
+                The Weather Center<br />
+                123 Main Street.<br />
+                Franklin, MI 87654
+              </p>
+            </div>
+            <div>
+              <h4>Email</h4>
+              <p>xxxxxxxxx@gmail.com</p>
+            </div>
+            <div>
+              <h4>Phone</h4>
+              <p>+56 9 1435 3654</p>
+            </div>
+          </div>
+          <div class="social hide-s show-m">
+            <a href="https://www.facebook.com/" target="_blank"
+              ><img src="images/facebook.svg" alt="Facebook icon"
+            /></a>
+            <a href="https://www.instagram.com/" target="_blank"
+              ><img src="images/instagram.svg" alt="Instagran icon"
+            /></a>
+            <a href="https://twitter.com/" target="_blank"
+              ><img src="images/twitter.svg" alt="Twitter icon"
+            /></a>
+          </div>
+        </div>
+        <img
+          src="images/map.jpg"
+          alt="Preston Idaho Map"
+          class="preston-image"
+        />
+      </div>
+      <div class="footer-bar">
+        &copy; <span id="current-date"></span> | Nicolas P. Orellana | Chile |
+        <a href="https://www.byui.edu/online" target="_blank">
+          BYUI Online Learning</a
+        >
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/slider.js"></script>
+  </body>
+</html>

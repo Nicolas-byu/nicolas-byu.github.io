@@ -102,6 +102,12 @@
     margin-top: 15px;
     display: block !important;
   }
+  .forecast-img {
+    width: 400px;
+    margin-top: -10px !important;
+    margin: 0 0 15px 15px;
+    float: right;
+  }
   /*----------- FOOTER --------------*/
   .contact {
     flex-direction: row !important;

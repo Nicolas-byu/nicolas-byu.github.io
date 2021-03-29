@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="A website that tells the weather in Preston Idaho."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="css/home/normalize.css" rel="stylesheet" />
+    <link href="css/home/small.css" rel="stylesheet" />
+    <link href="css/home/medium.css" rel="stylesheet" />
+    <link href="css/home/large.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <title>WhiteCloud</title>
+  </head>
+  <body>
+    <header>
+      <div class="title-motto show-m hide-s">
+        <img class="logo" src="images/logo.jpg" alt="logo" />
+        <div id="cards"></div>
+        <div>
+          <h1>WhiteCloud</h1>
+          <h4>Get the weather in no time.</h4>
+        </div>
+      </div>
+      <nav>
+        <div class="menu">
+          <div class="heading hide-m">
+            <img class="logo" src="images/logo.jpg" alt="logo" />
+            <div>
+              <h3>WhiteCloud</h3>
+              <h5>Get the weather in no time.</h5>
+            </div>
+          </div>
+          <a class="fa fa-bars hide-m" href="javascript:void(0);"></a>
+        </div>
+        <ul class="navigation">
+          <li><a class="active" href="/home.html">Home</a></li>
+          <li><a href="/Lesson11/preston.html">Preston</a></li>
+          <li><a href="#">Soda Springs</a></li>
+          <li><a href="#">Fish Haven</a></li>
+          <li><a href="/Lesson11/stormcenter.html">Storm Center</a></li>
+          <li><a href="/Lesson11/gallery-7.html">Gallery</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="home-main">
+      <div class="hero-img">
+        <img src="images/index-hero.jpg" />
+      </div>
+
+      <div class="cards"></div>
+    </main>
+    <footer>
+      <div class="contact">
+        <div class="info">
+          <h2>Contact Information</h2>
+          <div class="contact-info">
+            <div>
+              <h4>Address</h4>
+              <p>
+                The Weather Center<br />
+                123 Main Street.<br />
+                Franklin, MI 87654
+              </p>
+            </div>
+            <div>
+              <h4>Email</h4>
+              <p>xxxxxxxxx@gmail.com</p>
+            </div>
+            <div>
+              <h4>Phone</h4>
+              <p>+56 9 1435 3654</p>
+            </div>
+          </div>
+          <div class="social hide-s show-m">
+            <a href="https://www.facebook.com/" target="_blank"
+              ><img src="images/facebook.svg" alt="Facebook icon"
+            /></a>
+            <a href="https://www.instagram.com/" target="_blank"
+              ><img src="images/instagram.svg" alt="Instagran icon"
+            /></a>
+            <a href="https://twitter.com/" target="_blank"
+              ><img src="images/twitter.svg" alt="Twitter icon"
+            /></a>
+          </div>
+        </div>
+        <img
+          src="images/map.jpg"
+          alt="Preston Idaho Map"
+          class="preston-image"
+        />
+      </div>
+      <div class="footer-bar">
+        &copy; <span id="current-date"></span> | Nicolas P. Orellana | Chile |
+        <a href="https://www.byui.edu/online" target="_blank">
+          BYUI Online Learning</a
+        >
+      </div>
+    </footer>
+    <script src="js/fetchData.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

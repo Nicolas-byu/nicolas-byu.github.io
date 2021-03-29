@@ -1,0 +1,10 @@
+@media only screen and (min-width: 960px) {
+  main {
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+  .first-field label input,
+  textarea {
+    width: 50vw;
+  }
+}
