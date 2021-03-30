@@ -42,35 +42,19 @@
     max-width: 90vw;
   }
 
-  .cards {
-    display: flex;
-  }
   section {
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
-  article {
-    text-align: center;
-    margin: auto;
-    line-height: 2em;
-  }
   section:nth-child(odd) {
-    flex-direction: column;
+    flex-direction: row-reverse;
   }
 
   section img {
-    width: 90%;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    width: 50%;
   }
 
-  .hero-img {
-    width: 80%;
-    margin: 20px auto;
-  }
   /*----------- FOOTER --------------*/
   .contact {
     flex-direction: row !important;
