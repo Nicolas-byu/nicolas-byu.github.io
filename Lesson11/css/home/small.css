@@ -88,27 +88,23 @@ main {
   margin-top: 40px;
   margin-bottom: 40px;
 }
+
 section {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
   border: solid 1px;
-  margin: 2px 0;
+  border-radius: 10px;
+  margin: 10px auto;
+  width: 90vw;
 }
-
 article {
   text-align: center;
   margin: auto;
   line-height: 2.5em;
 }
-section:nth-child(odd) {
-  flex-direction: row-reverse;
-}
-
 section img {
-  margin: 20px;
-  width: 50%;
-  height: auto;
+  margin: 20px auto;
+  width: 90%;
 }
 
 .hero-img {
