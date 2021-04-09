@@ -1,10 +1,8 @@
 const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 
 fetch(requestURL)
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (jsonObject) {
+  .then((response) => response.json())
+  .then((jsonObject) => {
     const towns = jsonObject["towns"];
     console.log(towns);
     cityList = ["Springfield", "Greenville", "Preston"];
