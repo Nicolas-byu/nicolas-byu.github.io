@@ -17,9 +17,9 @@
     />
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/index/smallscreen.css" />
-    <link rel="stylesheet" href="./css/index/mediumscreen.css" />
-    <link rel="stylesheet" href="./css/index/largescreen.css" />
+    <link rel="stylesheet" href="./css/directory/smallscreen.css" />
+    <link rel="stylesheet" href="./css/directory/mediumscreen.css" />
+    <link rel="stylesheet" href="./css/directory/largescreen.css" />
     <title>Santiago's Chamber of Commerce</title>
   </head>
   <body>
@@ -35,21 +35,28 @@
         </div>
       </nav>
       <div class="categories-container">
-        <a href="index.html" class="category">Home</a>
-        <a href="city.html" class="category">Santiago</a>
-        <a href="join.html" class="category">Join</a>
-        <a href="directory.html" class="category">Directory</a>
-        <a href="contact.html" class="category">Contact</a>
+        <div class="logo-sm">
+          <a href="/index.html" class="logo">CCS</a>
+        </div>
+        <div class="links">
+          <a href="index.html" class="category">Home</a>
+          <a href="city.html" class="category">Santiago</a>
+          <a href="join.html" class="category">Join</a>
+          <a href="directory.html" class="category">Directory</a>
+          <a href="contact.html" class="category">Contact</a>
+        </div>
       </div>
       <div class="Hero">
         <div class="header-text">
           <h1 class="header-title">
-            You are Invited! Join our Recovery Support against COVID-19.
+            This page provides a list of local business organizations<span
+              style="color: yellow"
+              >.</span
+            >
           </h1>
           <h4 class="header-subtitle">
-            We will send you resources To help your company.
+            Take a look<span style="color: white">!</span>
           </h4>
-          <button type="button" href="#" class="join-btn">JOIN</button>
         </div>
         <img
           src="assets/media-image-a9e5ca04c10f974b-31342e6a7067.jpg"
@@ -57,12 +64,27 @@
         />
       </div>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+      <h2 style="margin-top: 60px">
+        This page provides information about local business, feel free to visit
+        their websites!
+      </h2>
+      <div class="display-ops">
+        <i class="bx bx-list-ul" id="list-op"></i>
+        <i class="bx bxs-grid" id="grid-op"></i>
+      </div>
+      <section class="business-list"></section>
+    </main>
+    <footer>
+      &copy; <span id="current-year"></span> | Nicolas P. Orellana | Chile |
+      <a href="https://www.byui.edu/online" target="_blank">
+        BYUI Online Learning</a
+      >
+      <div id="updated"></div>
+    </footer>
     <!-- Scripts -->
     <script src="js/script.js"></script>
     <script src="js/burgerMenu.js"></script>
-    <script src="js/imgSlides.js"></script>
-    <script src="js/weatherAPI.js"></script>
+    <script src="js/businessLoader.js"></script>
   </body>
 </html>

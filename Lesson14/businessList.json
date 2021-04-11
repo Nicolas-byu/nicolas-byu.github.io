@@ -1,0 +1,58 @@
+[
+    {
+    "name": "Brussels Heart of Chocolate",
+    "number": "+56 22 857 0635",
+    "social_media": "https://www.instagram.com/brusselschocolates/",
+    "address": "Santa Magdalena 168",
+    "logo": "brussels.png",
+    "website": "https://www.brusselsheartofchocolate.com/"
+},
+{
+    "name": "Veterinaria San Cristobal",
+    "number": "+56 99 873 9487",
+    "social_media": "https://www.instagram.com/VeterinariaSanCristobalChile/",
+    "address": "Mardoqueo Fernández 193-201",
+    "logo": "clinica-veterinaria-san-cristobal-logo-1480473626.jpg",
+    "website": "https://www.veterinariasancristobal.cl/online/"
+},
+{
+    "name": "U Finis Terrae",
+    "number":  "+56 22 420 7100",
+    "social_media": "https://www.instagram.com/tu_finisterrae/",
+    "address": "Avda. Pedro de Valdivia 1509",
+    "logo": "logo-finis-terrae.png",
+    "website": "https://uft.cl/"
+},
+{
+    "name": "CHC",
+    "number": "+56 93 253 8900",
+    "social_media": "https://www.instagram.com/chc.cl/?hl=es",
+    "address": "Isabel la Católica 4376",
+    "logo": "logo-chc.jpg",
+    "website": "https://chc.cl/"
+},
+{
+    "name": "La Cabrera",
+    "number": "+56 93 236 1687",
+    "social_media": "xxxxx@gmail.com",
+    "address": "Alonso de Córdova 4263",
+    "logo": "la-cabrera.png",
+    "website": "https://www.lacabrerachile.cl/"
+},
+{
+    "name": "CVD",
+    "number": "+56 22 754 4800",
+    "social_media": "comunicaciones@cvd.cl",
+    "address": "Avda. Presidente Errázuriz 4055",
+    "logo": "cvd.png",
+    "website": "https://www.cvd.cl/"
+},
+{
+    "name": "Yolito",
+    "number": "+56 22 750 0677",
+    "social_media": "https://www.facebook.com/yolitocl/",
+    "address": "Av. Las Condes 7090",
+    "logo": "logo-footer.jpg",
+    "website": "https://www.yolito.cl/"
+}
+]

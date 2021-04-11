@@ -1,0 +1,23 @@
+@media only screen and (min-width: 1040px) {
+  .header-title {
+    font-size: 80px;
+    text-align: center;
+  }
+
+  .header-text {
+    margin-top: 200px;
+  }
+}
+
+@media only screen and (min-width: 1350px) {
+  main {
+    width: 60vw;
+    margin: 0 auto;
+  }
+  .hero-img {
+    margin-top: -150px;
+  }
+  .header-text {
+    margin-top: 280px;
+  }
+}

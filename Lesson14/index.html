@@ -35,23 +35,36 @@
         </div>
       </nav>
       <div class="categories-container">
-        <a href="index.html" class="category">Home</a>
-        <a href="city.html" class="category">Santiago</a>
-        <a href="join.html" class="category">Join</a>
-        <a href="directory.html" class="category">Directory</a>
-        <a href="contact.html" class="category">Contact</a>
+        <div class="logo-sm">
+          <a href="/index.html" class="logo">CCS</a>
+        </div>
+        <div class="links">
+          <a href="index.html" class="category">Home</a>
+          <a href="city.html" class="category">Santiago</a>
+          <a href="join.html" class="category">Join</a>
+          <a href="directory.html" class="category">Directory</a>
+          <a href="contact.html" class="category">Contact</a>
+        </div>
       </div>
       <div class="Hero">
         <div class="header-text">
           <h1 class="header-title">
-            You are Invited! Join our Recovery Support against COVID-19.
+            You are Invited!<br />
+            Join our Recovery Support against COVID-19<span
+              style="color: yellow"
+              >.</span
+            >
           </h1>
           <h4 class="header-subtitle">
-            We will send you resources To help your company.
+            We will send you resources To help your company<span
+              style="color: white"
+              >.</span
+            >
           </h4>
-          <button type="button" href="#" class="join-btn">JOIN</button>
+          <button class="join-btn"><a href="join.html">JOIN</a></button>
         </div>
         <img
+          class="hero-img"
           src="assets/media-image-a9e5ca04c10f974b-31342e6a7067.jpg"
           alt="Picture of Santiago Municipality"
         />
@@ -114,17 +127,6 @@
           2.400 companies of all sizes and different economic areas.
         </p>
       </section>
-      <section class="contact-social">
-        <h2>Contact Info</h2>
-        <h3>If you wish, you can contact us.</h3>
-        <p>Monjitas #392, Santiago - Chile</p>
-        <p>+562 2360 7000</p>
-        <p>contacto@ccs.cl</p>
-        <div class="social">
-          <i class="bx bxl-facebook-circle"></i>
-          <i class="bx bxl-instagram-alt"></i>
-        </div>
-      </section>
       <section class="events-weather">
         <div class="events">
           <h3>Up coming events</h3>
@@ -185,18 +187,37 @@
           </div>
           <div class="forecast">
             <hr />
-
             <h3>Three Day Forecast</h3>
             <div id="forecast-days"></div>
           </div>
         </div>
       </section>
+      <section class="contact-social">
+        <h2>Contact Info</h2>
+        <h3>If you wish, you can contact us.</h3>
+        <p>Monjitas #392, Santiago - Chile</p>
+        <p>+562 2360 7000</p>
+        <p>contacto@ccs.cl</p>
+        <div class="social">
+          <a href="https://www.facebook.com/" target="_blank"
+            ><i class="bx bxl-facebook-circle"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class="bx bxl-instagram-alt"></i>
+          </a>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      &copy; <span id="current-year"></span> | Nicolas P. Orellana | Chile |
+      <a href="https://www.byui.edu/online" target="_blank">
+        BYUI Online Learning</a
+      >
+      <div id="updated"></div>
+    </footer>
     <!-- Scripts -->
     <script src="js/script.js"></script>
     <script src="js/burgerMenu.js"></script>
-    <script src="js/imgSlides.js"></script>
     <script src="js/weatherAPI.js"></script>
   </body>
 </html>

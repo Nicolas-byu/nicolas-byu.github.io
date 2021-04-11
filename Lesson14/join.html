@@ -35,22 +35,26 @@
         </div>
       </nav>
       <div class="categories-container">
-        <a href="index.html" class="category">Home</a>
-        <a href="city.html" class="category">Santiago</a>
-        <a href="join.html" class="category">Join</a>
-        <a href="directory.html" class="category">Directory</a>
-        <a href="contact.html" class="category">Contact</a>
+        <div class="logo-sm">
+          <a href="/index.html" class="logo">CCS</a>
+        </div>
+        <div class="links">
+          <a href="index.html" class="category">Home</a>
+          <a href="city.html" class="category">Santiago</a>
+          <a href="join.html" class="category">Join</a>
+          <a href="directory.html" class="category">Directory</a>
+          <a href="contact.html" class="category">Contact</a>
+        </div>
       </div>
       <div class="Hero">
         <div class="header-text">
           <h1 class="header-title">
-            Come <br />and<br />
-            join<br />
-            us<span style="color: white">!</span>
+            Come and join us<span style="color: yellow">!</span>
           </h1>
         </div>
         <img
-          src="assets/media-image-a9e5ca04c10f974b-31342e6a7067.jpg"
+          class="hero-img"
+          src="assets/rsz_museum_h_santiago.jpg"
           alt="Picture of Santiago Municipality"
         />
       </div>
@@ -58,6 +62,11 @@
     <main>
       <h2>Join</h2>
       <p>BE PART OF OUR LARGE COMMUNITY OF MORE THAN 2.400 COMPANIES.</p>
+      <p>
+        These companies count on us to be their voice, across the country. For
+        more than 100 years, we have advocated for pro-business policies that
+        help businesses create jobs and grow our economy.
+      </p>
       <p></p>
       <form action="thanks.html" method="get">
         <fieldset>
@@ -173,11 +182,15 @@
         </button>
       </form>
     </main>
-    <footer></footer>
+    <footer>
+      &copy; <span id="current-year"></span> | Nicolas P. Orellana | Chile |
+      <a href="https://www.byui.edu/online" target="_blank">
+        BYUI Online Learning</a
+      >
+      <div id="updated"></div>
+    </footer>
     <!-- Scripts -->
     <script src="js/script.js"></script>
     <script src="js/burgerMenu.js"></script>
-    <script src="js/imgSlides.js"></script>
-    <script src="js/weatherAPI.js"></script>
   </body>
 </html>

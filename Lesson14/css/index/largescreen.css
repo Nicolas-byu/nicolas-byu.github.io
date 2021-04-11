@@ -1,0 +1,40 @@
+@media only screen and (min-width: 1040px) {
+  .header-title {
+    font-size: 60px;
+    color: white;
+  }
+  .header-subtitle {
+    font-size: 40px;
+    color: yellow;
+  }
+
+  .header-text {
+    margin-top: 200px;
+  }
+  .advertisements {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .business:nth-child(3) {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    width: inherit;
+    margin: 0 auto;
+  }
+  .join-btn {
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (min-width: 1350px) {
+  main {
+    width: 60vw;
+    margin: 0 auto;
+  }
+  .hero-img {
+    margin-top: -150px;
+  }
+  .header-text {
+    margin-top: 280px;
+  }
+}

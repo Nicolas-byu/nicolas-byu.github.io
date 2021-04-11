@@ -84,6 +84,9 @@ select:focus {
   font-size: 2rem;
   cursor: pointer;
 }
+.logo-sm {
+  display: none;
+}
 
 .icon {
   background-color: inherit;
@@ -98,7 +101,6 @@ select:focus {
 .categories-container {
   display: none;
   background-color: #fff;
-  flex-direction: column;
   position: fixed;
   top: 4.7rem;
   width: 100%;
@@ -107,6 +109,13 @@ select:focus {
   justify-content: space-between;
   z-index: 100;
 }
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .show {
   display: flex !important;
 }
@@ -169,10 +178,99 @@ select:focus {
 }
 
 .header-title {
-  font-size: 6vw;
+  font-size: 8vw;
   color: white;
 }
-.header-subtitle {
-  font-size: 4vw;
-  color: yellow;
+
+/* MAIN */
+
+h2 {
+  text-align: center;
+  margin-top: 40px;
+}
+p {
+  text-align: center;
+}
+fieldset {
+  width: 400px;
+  margin: 20px auto;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label {
+  margin: 10px 0;
+}
+
+.subscription-level {
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  margin: 0 40px;
+}
+
+.subscription-level label {
+  margin: 10px;
+}
+
+.label input {
+  width: 270px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.submit-btn {
+  width: 270px;
+  margin-bottom: 20px;
+  background-color: green;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bx-send {
+  margin-left: 5px;
+  transform: rotate(-45deg) translateX(2px);
+}
+
+.social {
+  margin-top: 20px;
+  font-size: 50px;
+}
+
+.social i {
+  cursor: pointer;
+}
+
+.field textarea {
+  width: 300px;
+  height: 100px;
+}
+
+/* FOOTER */
+footer {
+  height: 50px;
+  text-align: center;
+  background-color: whitesmoke;
+  padding: 15px;
+}
+footer a {
+  color: blue;
+}
+
+footer a:hover {
+  color: green;
 }

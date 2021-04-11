@@ -84,6 +84,9 @@ select:focus {
   font-size: 2rem;
   cursor: pointer;
 }
+.logo-sm {
+  display: none;
+}
 
 .icon {
   background-color: inherit;
@@ -98,7 +101,6 @@ select:focus {
 .categories-container {
   display: none;
   background-color: #fff;
-  flex-direction: column;
   position: fixed;
   top: 4.7rem;
   width: 100%;
@@ -106,6 +108,11 @@ select:focus {
   padding-bottom: 1.5rem;
   justify-content: space-between;
   z-index: 100;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .show {
   display: flex !important;
@@ -160,6 +167,15 @@ select:focus {
   transform: rotate(-45deg) translate(35px, 35px);
 }
 
+.join-btn {
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 3vw;
+  padding: 5px 40px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
 .header-text {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.5);
@@ -175,44 +191,6 @@ select:focus {
 .header-subtitle {
   font-size: 4vw;
   color: yellow;
-}
-.mySlides {
-  display: none;
-}
-.join-btn {
-  background: green;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  margin-top: 15px;
-  padding: 0.5%;
-  width: 19%;
-  font-size: 4vw;
-}
-img {
-  vertical-align: middle;
-}
-
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 2s;
-  animation-name: fade;
-  animation-duration: 2s;
-}
-
-@keyframes fade {
-  from {
-    opacity: 0.5;
-  }
-  to {
-    opacity: 1;
-  }
 }
 
 /*ADVERTISEMENT SECTION */
@@ -251,6 +229,7 @@ img {
 .events {
   align-self: center;
   margin-bottom: 20px;
+  width: 420px;
 }
 .event {
   text-align: left;
@@ -277,4 +256,19 @@ img {
 #forecast-days {
   display: flex;
   justify-content: space-around;
+}
+
+/* FOOTER */
+footer {
+  height: 50px;
+  text-align: center;
+  background-color: whitesmoke;
+  padding: 15px;
+}
+footer a {
+  color: blue;
+}
+
+footer a:hover {
+  color: green;
 }

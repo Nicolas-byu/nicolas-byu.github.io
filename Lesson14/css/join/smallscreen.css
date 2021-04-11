@@ -84,6 +84,9 @@ select:focus {
   font-size: 2rem;
   cursor: pointer;
 }
+.logo-sm {
+  display: none;
+}
 
 .icon {
   background-color: inherit;
@@ -98,7 +101,6 @@ select:focus {
 .categories-container {
   display: none;
   background-color: #fff;
-  flex-direction: column;
   position: fixed;
   top: 4.7rem;
   width: 100%;
@@ -107,6 +109,13 @@ select:focus {
   justify-content: space-between;
   z-index: 100;
 }
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .show {
   display: flex !important;
 }
@@ -170,7 +179,7 @@ select:focus {
 
 .header-title {
   font-size: 8vw;
-  color: yellow;
+  color: white;
 }
 
 /* MAIN */
@@ -234,4 +243,19 @@ form {
 .bx-send {
   margin-left: 5px;
   transform: rotate(-45deg) translateX(2px);
+}
+
+/* FOOTER */
+footer {
+  height: 50px;
+  text-align: center;
+  background-color: whitesmoke;
+  padding: 15px;
+}
+footer a {
+  color: blue;
+}
+
+footer a:hover {
+  color: green;
 }
