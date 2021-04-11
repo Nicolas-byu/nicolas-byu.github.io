@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Box Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/index/smallscreen.css" />
+    <link rel="stylesheet" href="./css/index/mediumscreen.css" />
+    <link rel="stylesheet" href="./css/index/largescreen.css" />
+    <title>Santiago's Chamber of Commerce</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="navigation">
+          <div class="logo">
+            <a href="/index.html" class="logo">CCS</a>
+          </div>
+          <div class="menu-btn">
+            <div class="menu-btn__burger"></div>
+          </div>
+        </div>
+      </nav>
+      <div class="categories-container">
+        <a href="index.html" class="category">Home</a>
+        <a href="city.html" class="category">Santiago</a>
+        <a href="join.html" class="category">Join</a>
+        <a href="directory.html" class="category">Directory</a>
+        <a href="contact.html" class="category">Contact</a>
+      </div>
+      <div class="Hero">
+        <div class="header-text">
+          <h1 class="header-title">
+            You are Invited! Join our Recovery Support against COVID-19.
+          </h1>
+          <h4 class="header-subtitle">
+            We will send you resources To help your company.
+          </h4>
+          <button type="button" href="#" class="join-btn">JOIN</button>
+        </div>
+        <img
+          src="assets/media-image-a9e5ca04c10f974b-31342e6a7067.jpg"
+          alt="Picture of Santiago Municipality"
+        />
+      </div>
+    </header>
+    <main>
+      <section class="advertisement-sec">
+        <h2>
+          Visit these awesome companies that started their journey during the
+          pandemic
+        </h2>
+        <div class="advertisements">
+          <div class="business">
+            <h3>proclama.cl</h3>
+            <img
+              src="assets/proclama.png"
+              alt="A picture of the website called 'proclama'"
+            />
+            <p>
+              Doesn't matter the size of the company, having a website is very
+              important because allows your clients to have easy access to what
+              you are selling.
+            </p>
+          </div>
+          <div class="business">
+            <h3>iman-publieventos.cl</h3>
+            <img
+              src="assets/iman-publieventos.png"
+              alt="A picture of the website called 'iman-publieventos"
+            />
+            <p>
+              Our mission is to help you make comunication easier between
+              company and clients in the most fast and effective way possible.
+            </p>
+          </div>
+          <div class="business">
+            <h3>visualgraphic.cl</h3>
+            <img
+              src="assets/visualgraphic.png"
+              alt="A picture of the website called vidualgraphic"
+            />
+            <p>
+              Our work is based on the clients needs, made with the best
+              material and tools found in the market. Our goal is to give
+              solutions to your events.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="description">
+        <h2>A description of our purpose and goals</h2>
+        <p>
+          Our purpose is to promote the balance between economic contribution
+          and companies and their positives impacts in enviromental, social and
+          goberment, matters, according to the compromise subscribed by Chile
+          related with the Sustenible Development Purposes(SDP).
+        </p>
+        <p>
+          Our goal is to protect the interests of our partners. Currently we are
+          2.400 companies of all sizes and different economic areas.
+        </p>
+      </section>
+      <section class="contact-social">
+        <h2>Contact Info</h2>
+        <h3>If you wish, you can contact us.</h3>
+        <p>Monjitas #392, Santiago - Chile</p>
+        <p>+562 2360 7000</p>
+        <p>contacto@ccs.cl</p>
+        <div class="social">
+          <i class="bx bxl-facebook-circle"></i>
+          <i class="bx bxl-instagram-alt"></i>
+        </div>
+      </section>
+      <section class="events-weather">
+        <div class="events">
+          <h3>Up coming events</h3>
+          <div class="event">
+            <div class="time">
+              <p>Wed, Apr 14</p>
+              <p>21:00</p>
+            </div>
+            <div class="title-where">
+              <p>Everybody loves Ketchup</p>
+              <p>Galeria Mackenna</p>
+            </div>
+          </div>
+          <div class="event">
+            <div class="time">
+              <p>Thu, Apr 15</p>
+              <p>All day</p>
+            </div>
+            <div class="title-where">
+              <p>Chiliean Open Copa Banco de Chile</p>
+              <p>Santiago Centro</p>
+            </div>
+          </div>
+          <div class="event">
+            <div class="time">
+              <p>Thu, Apr 15</p>
+              <p>03:00</p>
+            </div>
+            <div class="title-where">
+              <p>Shoulder and Elbow Society of Chile</p>
+              <p>Mandarin Oriental</p>
+            </div>
+          </div>
+          <div class="event">
+            <div class="time">
+              <p>Thu, Apr 15</p>
+              <p>19:00</p>
+            </div>
+            <div class="title-where">
+              <p>Sons of Apolo</p>
+              <p>Blondie</p>
+            </div>
+          </div>
+        </div>
+        <div class="weather-forecast">
+          <div class="weather">
+            <div class="today">
+              <h3>Weather Summary</h3>
+              <p>
+                <strong>Currently: </strong><span id="currentTemp"></span>&deg
+              </p>
+              <p>
+                <strong>Condition Description: </strong
+                ><span id="condition"></span>
+              </p>
+              <p><strong>Humidity: </strong><span id="humidity"></span>%</p>
+            </div>
+          </div>
+          <div class="forecast">
+            <hr />
+
+            <h3>Three Day Forecast</h3>
+            <div id="forecast-days"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+    <script src="js/burgerMenu.js"></script>
+    <script src="js/imgSlides.js"></script>
+    <script src="js/weatherAPI.js"></script>
+  </body>
+</html>

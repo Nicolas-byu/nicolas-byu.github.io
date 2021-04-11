@@ -10,6 +10,7 @@ fetch(apiURL)
     document.getElementById("humidity").textContent = weatherInfo.main.humidity;
 
     let temp = parseFloat(document.getElementById("maxTemp").innerHTML);
+
     let windSpeed = parseFloat(document.getElementById("windSpeed").innerHTML);
 
     let windchill =
@@ -40,7 +41,6 @@ fetch(forecastURL)
       "Friday",
       "Saturday",
     ];
-
     for (i = 0; i < forecastInfo.list.length; i++) {
       if (forecastInfo.list[i].dt_txt.includes("18:00:00")) {
         let dayName = document.createElement("span");
@@ -68,8 +68,6 @@ const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 fetch(requestURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
-
     document.getElementById("event1").textContent = jsObject.towns[6].events[0];
     document.getElementById("event2").textContent = jsObject.towns[6].events[1];
     document.getElementById("event3").textContent = jsObject.towns[6].events[2];

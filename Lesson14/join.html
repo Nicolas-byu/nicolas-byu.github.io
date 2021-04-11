@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Box Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/join/smallscreen.css" />
+    <link rel="stylesheet" href="./css/join/mediumscreen.css" />
+    <link rel="stylesheet" href="./css/join/largescreen.css" />
+    <title>Santiago's Chamber of Commerce</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="navigation">
+          <div class="logo">
+            <a href="/index.html" class="logo">CCS</a>
+          </div>
+          <div class="menu-btn">
+            <div class="menu-btn__burger"></div>
+          </div>
+        </div>
+      </nav>
+      <div class="categories-container">
+        <a href="index.html" class="category">Home</a>
+        <a href="city.html" class="category">Santiago</a>
+        <a href="join.html" class="category">Join</a>
+        <a href="directory.html" class="category">Directory</a>
+        <a href="contact.html" class="category">Contact</a>
+      </div>
+      <div class="Hero">
+        <div class="header-text">
+          <h1 class="header-title">
+            Come <br />and<br />
+            join<br />
+            us<span style="color: white">!</span>
+          </h1>
+        </div>
+        <img
+          src="assets/media-image-a9e5ca04c10f974b-31342e6a7067.jpg"
+          alt="Picture of Santiago Municipality"
+        />
+      </div>
+    </header>
+    <main>
+      <h2>Join</h2>
+      <p>BE PART OF OUR LARGE COMMUNITY OF MORE THAN 2.400 COMPANIES.</p>
+      <p></p>
+      <form action="thanks.html" method="get">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <div class="field">
+            <label class="label">
+              <span>First Name*</span>
+              <br />
+              <input
+                class="input1"
+                type="text"
+                name="first-name"
+                pattern="[A-Za-z ]{5,}"
+                required
+            /></label>
+            <label class="label">
+              <span>Last Name*</span>
+              <br />
+              <input
+                class="input1"
+                type="text"
+                name="last-name"
+                pattern="[A-Za-z ]{5,}"
+                required
+            /></label>
+            <label class="label">
+              <span>Title</span>
+              <br />
+              <input
+                class="input1"
+                type="text"
+                name="title"
+                pattern="[A-Za-z ]{5,}"
+            /></label>
+            <label class="label"
+              ><span>Email*</span><br />
+              <input
+                type="email"
+                name="email"
+                placeholder="your_email@email.com"
+                required
+            /></label>
+            <label class="label"
+              ><span>Phone</span><br />
+              <input type="tel" name="tel" required
+            /></label>
+            <label class="label">
+              <span>Business Name*</span>
+              <br />
+              <input
+                class="input1"
+                type="text"
+                name="business-name"
+                pattern="[A-Za-z ]{5,}"
+                required
+            /></label>
+            <label class="label">
+              <span>Business Address</span>
+              <br />
+              <input
+                class="input1"
+                type="text"
+                name="business-address"
+                pattern="[A-Za-z ]{5,}"
+            /></label>
+            <label class="label">
+              <span>Business Website</span>
+              <br />
+              <input
+                class="input1"
+                type="text"
+                name="business-website"
+                pattern="[A-Za-z ]{5,}"
+            /></label>
+            <label class="label">
+              <span>Business Description</span>
+              <br />
+              <input
+                class="input1"
+                type="text"
+                name="name"
+                pattern="[A-Za-z ]{5,}"
+                required
+            /></label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Subscription Level</legend>
+          <div class="field">
+            <div class="subscription-level">
+              <label
+                ><input type="radio" name="level" value="100" /> Non-profit
+                ($100)</label
+              >
+              <label
+                ><input type="radio" name="level" value="200" />
+                Bronze ($200)
+              </label>
+              <label
+                ><input type="radio" name="level" value="400" />
+                Silver ($400)
+              </label>
+              <label
+                ><input type="radio" name="level" value="1000" /> Gold
+                ($1000)</label
+              >
+            </div>
+          </div>
+        </fieldset>
+
+        <button class="submit-btn" type="submit" value="Submit">
+          Send<i class="bx bx-send"></i>
+        </button>
+      </form>
+    </main>
+    <footer></footer>
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+    <script src="js/burgerMenu.js"></script>
+    <script src="js/imgSlides.js"></script>
+    <script src="js/weatherAPI.js"></script>
+  </body>
+</html>
