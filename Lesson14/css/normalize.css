@@ -311,7 +311,16 @@ textarea {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
+.active {
+  color: white;
+  background-color: black !important;
+  height: 60px !important;
+  padding-top: 18px !important;
+}
 
+img {
+  width: 100%;
+}
 /* Interactive
      ========================================================================== */
 

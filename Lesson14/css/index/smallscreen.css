@@ -174,7 +174,6 @@ select:focus {
   font-size: 3vw;
   padding: 5px 40px;
   border-radius: 5px;
-  margin-top: 15px;
 }
 .header-text {
   position: absolute;
@@ -191,6 +190,7 @@ select:focus {
 .header-subtitle {
   font-size: 4vw;
   color: yellow;
+  margin-bottom: 30px;
 }
 
 /*ADVERTISEMENT SECTION */
